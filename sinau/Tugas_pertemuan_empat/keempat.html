@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemrograman JavaScript Awal - SinauKoding</title>
+</head>
+<body>
+    <script>
+        let BusTransjakarta = 10;
+        let BusTransJakartaOperasibaik = 6
+        let nomorBusTransJakarta = 1
+
+        console.log("Jumlah Bus Transjakarta")
+
+        for (let i = 0; i <= BusTransjakarta; i++) 
+        {
+           console.log("BusTransJakarta yang ke " + i)            
+        }
+
+       console.log("")
+
+       console.log("Jumlah Bus TransJakarta yang beroperasi dengan baik")
+
+        
+for (let nomorBusTransJakarta = 1; nomorBusTransJakarta <= BusTransJakartaOperasibaik; nomorBusTransJakarta++) 
+{
+    console.log("Bus TransJakarta" + " " + nomorBusTransJakarta + " " + "Beroperasi dengan Baik");
+}
+
+console.log("")
+
+for (let i = nomorBusTransJakarta; i < BusTransjakarta; i++) 
+{
+   if (i === 7 || i === 9 || i === 10) 
+   {
+        console.log(`Bus Transjakarta nomor ${i} tidak beroperasi`)
+   }
+   else if (i === 8) 
+   {
+        console.log(`Bus Transjakarta nomor ${i} Sedang lembur`)
+   }
+}
+
+    </script>
+</body>
+</html>

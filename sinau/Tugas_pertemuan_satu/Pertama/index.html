@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pertemuan Pertama Sinau Koding</title>
+   
+</head>
+<body>
+    <table border="1"; width="90%";>
+        <thead>
+            <tr>
+                <th>Jenis</th>
+                <th>Hasil</th>
+                <th>Keterangan</th>
+            </tr>
+        </thead>
+        <tbody>
+           <tr style="text-align: center;">
+                <th>Text</th>
+                <td>Input Text &nbsp; <input type="text" placeholder="Input Text"></td>
+                <td>Tipe inputan yang diterima adalah text</td>
+           </tr>
+           <tr style="text-align: center;">
+                <th>Number</th>
+                <td>Input Number &nbsp; <input type="Number" pattern="[0-9]*" title="Masukkan hanya angka" placeholder="Input Number"></td>
+                <td>Tipe inputan yang diterima adalah number / angka dan karakter yang diterima adalah angka</td>
+           </tr>
+           <tr style="text-align: center;">
+                <th>Email</th>
+                <td>Input Email &nbsp; <input type="text" placeholder="Input Email"></td>
+                <td>Tipe inputan yang diterima adalah email dan berupa validasi</td>
+            </tr>
+            <tr style="text-align: center;">
+                <th>Password</th>
+                <td>Input Password &nbsp; <input type="password" placeholder="Input Password"></td>
+                <td>Tipe inputan yang diterima adalah text tetapi yang akan disembunyikan dalam bentuk bintang</td>               
+            </tr>
+            <tr style="text-align: center;">
+                <th>Radio</th>
+                <td>Input Radio &nbsp; <input type="radio" name="radio" value="1">Radio 1 &nbsp; <input type="radio" name="radio" value="2">Radio 2</td>
+                <td>Tipe inputan yang diterima adalah berupa pilihan dan hanya bisa dipilih salah satu</td>
+            </tr>            
+            <tr style="text-align: center;">
+                <th>Checkbox</th>
+                <td>Input Checkbox &nbsp; <input type="checkbox" name="chkpilihan" value="1">Checkbox 1 &nbsp; <input type="checkbox" name="chkpilihan" value="2">Checkbox 2</td>
+                <td>Tipe inputan yang diterima adalah checklist dan bisa dipilih beberapa</td>
+            </tr>
+            <tr style="text-align: center;">
+                <th>Range</th>
+                <td>Input Range &nbsp; <input type="range" style="color: blue;"></td>
+                <td>Tipe inputa yang diterima adalah berupa bar yang bisa digeser</td>
+            </tr>
+            <tr style="text-align: center;">
+                <th>Time</th>
+                <td>Input Time &nbsp; <input type="time" name="waktusoal" id="waktusoal"></td>
+                <td>Tipe inputan yang diterima adalah format waktu</td>
+            </tr>
+            <tr style="text-align: center;">
+                <th>Date</th>
+                <td>Input Date &nbsp; <input type="date" name="tanggalsoal" id="tanggalsoal"></td>
+                <td>Tipe inputan yang diterima adalah format waktu adalah satuan hari (hh), bulan (mm). tahun (yy)</td>
+            </tr>
+            <tr style="text-align: center;">
+                <th>Week</th>
+                <td>Input Week &nbsp; <input type="week" name="Minggusoal" id="Minggusoal"></td>
+                <td>Tipe inputan yang diterima adalah format waktu adalah dalam kurun waktu satu minggu</td>
+            </tr>
+            <tr style="text-align: center;">
+                <th>Month</th>
+                <td>Input Month &nbsp; <input type="month" name="Bulansoal" id="Bulansoal"></td>
+                <td>Tipe inputan yang diterima adalah format waktu adalah satuan hari bulan (bbbbbbbbb) dan tahun (yyyy)</td>
+            </tr>
+            <tr style="text-align: center;">
+                <th>Color</th>
+                <td>Input color &nbsp; <input type="color" name="warnasoal" id="warnasoal"></td>
+                <td>Tipe inputan yang diterima adalah berupa warna yang dihasilkan</td>
+            </tr>
+            <tr style="text-align: center;">
+                <th>File</th>
+                <td>Input File &nbsp; <button>Input File</button>  Tidak file yang dipilih</td>
+                <td>Tipe input yang diterima adalah dalam bentuk file</td>
+            </tr>
+            <tr style="text-align: center;">
+                <th>Combo Box</th>
+                <td>Input Select <select id="pilihan">
+                    <option value="nilai1">Pilihan 1</option>
+                    <option value="nilai2">Pilihan 2</option>
+                    <option value="nilai3">Pilihan 3</option>
+                    <option value="nilai4">Pilihan 4</option>
+                  </select></td>
+                <td>Tipe inputan yang diterima adalah option yang bisa dipilih</td>
+            </tr>
+            <tr style="text-align: center;">
+                <th>TextArea</th>
+                <td>Input  textarea <br> <textarea name="" id=""></textarea></td>
+                <td>Tipe input yang diterima adalah Text tetapi dalam karakter yang banyak</td>
+            </tr>
+            <tr style="text-align: center;">
+                <th>Button</th>
+                <td><button class="btn">Button</button> &nbsp; <button class="btnreset">Reset</button> &nbsp; <button class="btnsubmit">Submit</button></td>
+                <td>Suatu tombol yang bisa melakukan action tertentu ketika diberi perintah</td>
+            </tr>
+            <tr style="text-align: center;">
+                <th>Image</th>
+                <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                  </svg></td>
+                <td>Suatu tombol yang bisa melakukan action tertentu ketika diberi perintah</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

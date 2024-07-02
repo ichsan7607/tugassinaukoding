@@ -1,0 +1,19 @@
+.jumbotron
+{
+    padding: 2rem 1rem;
+    background-color: #e2edff;
+    padding:6rem;
+}
+img
+{
+    width: 200px;
+}
+.row
+{
+  padding: 3rem;
+}
+#project
+{
+  background-color: lightpink;
+  padding: 1rem;
+}

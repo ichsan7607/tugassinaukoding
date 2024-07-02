@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.task
+{
+    font-family: "Poppins", sans-serif;
+    font-weight:900;
+    font-size:32px;
+    color:lightblue;
+}
+table
+{
+    width: 100%;
+    height: 150px;
+}
+.tbl-pertama
+{
+    background-color: #ffa07a;
+}
+.tbl-kedua
+{
+    background-color: #add8e6;
+}
+.tbl-ketiga
+{
+    background-color: #fafad2;
+}
+table .left-item
+{
+    width: 25%;
+    height: 100%;
+    text-align: left;
+}
+.gambar-samping
+{
+    width: 70%;
+    height: 100%;
+}
+table .center-item
+{
+    width: 505;
+    height: 100%;
+    text-align: center;
+}
+.gambar-tengah
+{
+    width: 30%;
+    height: 705;
+}
+table .right-item
+{
+    width: 25%;
+    height: 100%;
+    text-align: right;
+}
+.gambar-kanan
+{
+    width: 70%;
+    height: 100%;
+}    
+.text-content
+{
+    text-align: center;
+    font-size: 14px;
+}
+.btn-readmore
+{
+    background: transparent;
+    border: none;
+}
+a
+{
+    color: black;
+}
+#item-script
+{
+    text-transform: uppercase;
+}
+.Judul-pertama
+{
+    color: #ff4500;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-size:14px;
+}
+.Judul-kedua
+{
+    color: #3b84fa;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-size:14px;
+}
+.Judul-ketiga
+{
+    color: #e4d47b;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-size:14px;
+}
